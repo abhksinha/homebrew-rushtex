@@ -5,7 +5,7 @@
 class Rushtex < Formula
   desc "LaTeX to PDF compiler, output identical to pdfLaTeX, in pure safe Rust"
   homepage "https://abhksinha.github.io/RushTeX/"
-  version "0.1.0"
+  version "0.1.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
@@ -13,22 +13,22 @@ class Rushtex < Formula
 
     on_arm do
       url "https://github.com/abhksinha/RushTeX/releases/download/v#{version}/rushtex-aarch64-apple-darwin.tar.gz"
-      sha256 "9ad37ff12680069ffb5908e7947f4789384346eeaedc5acd09d3e36b5a39ca12"
+      sha256 "cd604112a95b9a4af6fc5c3df6480789743559a98c63128e7781421a99606199"
     end
     on_intel do
       url "https://github.com/abhksinha/RushTeX/releases/download/v#{version}/rushtex-x86_64-apple-darwin.tar.gz"
-      sha256 "bd83e7ab452aa57b719e59354febfecbfc092881f7939cb51f4dbac05a6e00c5"
+      sha256 "c950d6e71115939aa9562b4d38ce7135dcfdb0d4900376bb33961f86f8f9a0b7"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/abhksinha/RushTeX/releases/download/v#{version}/rushtex-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8542ef88abcd4a87188e3e970c5b2c40b1b83d679d6b3d577b718bf402da9281"
+      sha256 "b63cbbeb036d38bb3596ae9fc2e5c96b87828fd1e1a44fa5db5a3fda0d9b72be"
     end
     on_intel do
       url "https://github.com/abhksinha/RushTeX/releases/download/v#{version}/rushtex-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "26a3d97b2fa5e58ed4425e702a7b9b045eb0de68c5e43d3b4d9df4f84102caaa"
+      sha256 "74bf6032d2786c8b18664ffbbcaafab700b7c933a78d90f1ff6bbfad15b6ce14"
     end
   end
 
